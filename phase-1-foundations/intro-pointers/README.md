@@ -1,1 +1,1 @@
-[!image for the RAM](resources/image.png)
+![image for the RAM](resources/image.png)
