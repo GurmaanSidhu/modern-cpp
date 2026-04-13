@@ -53,96 +53,10 @@ cpp-modern-mastery/
 │   └── design-patterns/
 │
 └── projects/
-    ├── smart-linked-list/        ← Linked list rebuilt with modern C++
-    ├── thread-safe-queue/        ← Concurrency applied
-    └── expression-evaluator/     ← Templates + parsing applied
+    ├──         
+    ├── 
+    └── 
 ```
-
-Each folder contains:
-- `.cpp` files with clean, well-commented implementations
-- `notes.md` with personal explanations written in plain English
-- Time and space complexity analysis where relevant
-
----
-
-## How to compile any file
-
-```bash
-g++ -std=c++20 -Wall -Wextra filename.cpp -o output
-./output
-```
-
-> All code is written in standard C++20 and tested on GCC 13+. No third-party libraries used.
-
----
-
-## Sample — what the code looks like
-
-Here's a taste from `phase-2-core-modern/smart-pointers/unique_ptr.cpp`:
-
-```cpp
-#include <iostream>
-#include <memory>
-
-// unique_ptr — sole ownership of a heap resource.
-// Automatically freed when it goes out of scope (RAII).
-// Cannot be copied, only moved.
-
-struct Node {
-    int value;
-    std::unique_ptr<Node> next;
-    explicit Node(int val) : value(val), next(nullptr) {}
-};
-
-int main() {
-    auto head = std::make_unique<Node>(10);
-    head->next = std::make_unique<Node>(20);
-
-    // No manual delete needed — memory freed automatically
-    std::cout << head->value << " -> " << head->next->value << "\n";
-}
-```
-
----
-
-## Projects
-
-Real implementations that apply what each phase teaches:
-
-### Smart Linked List (`/projects/smart-linked-list`)
-The classic linked list — but rebuilt using `unique_ptr`, move semantics, and the Rule of Five. Zero raw `new` or `delete`. Compared side by side with the raw pointer version.
-
-### Thread-Safe Queue (`/projects/thread-safe-queue`)
-A producer-consumer queue using `std::mutex`, `std::condition_variable`, and `std::atomic`. Built after completing Phase 4 concurrency.
-
-### Expression Evaluator (`/projects/expression-evaluator`)
-A math expression parser using templates and recursion. Handles operator precedence, parentheses, and type-safe evaluation.
-
----
-
-## Learning resources used
-
-| Resource | Why |
-|----------|-----|
-| [The Cherno – C++ Series](https://www.youtube.com/@TheCherno) | Best visual explanations of C++ internals |
-| [learncpp.com](https://www.learncpp.com) | Most structured free written resource |
-| [cppreference.com](https://cppreference.com) | Ground truth for every standard feature |
-| *Effective Modern C++* – Scott Meyers | The definitive C++11/14 book |
-| [C++ Weekly – Jason Turner](https://www.youtube.com/@cppweekly) | Short focused modern C++ videos |
-| [CppCon Talks](https://www.youtube.com/@CppCon) | Advanced patterns and best practices |
-
----
-
-## Progress log
-
-| Date | Milestone |
-|------|-----------|
-| 2025-04 | Started repo — Phase 1 foundations |
-| — | Phase 2 smart pointers & move semantics |
-| — | Phase 2 complete — first project built |
-| — | Phase 3 templates & C++17 |
-| — | Phase 4 concurrency & expert patterns |
-
 ---
 
 ## About
