@@ -1,2 +1,4 @@
 Before anything — here's what RAM looks like to your program
-![image for the RAM](resources/image.png)
+<p align="center">
+  <img src="resources/image.png" width=400/>
+</p>
