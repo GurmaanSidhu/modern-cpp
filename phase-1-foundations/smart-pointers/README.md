@@ -8,17 +8,14 @@
 </p>
 
 ## Contents
-[1. Smart Pointers](#smart-pointers)
-
-&emsp;[1.1 Defination](#defination) 
-
+[1. Smart Pointers](#smart-pointers) <br>
+&emsp;[1.1 Defination](#defination) <br>
 &emsp;[1.2 Types](#types) <br>
-&emsp;[1.2 Advantages and Disadvantages](#adv-and-dis)
+&emsp;[1.2 Advantages and Disadvantages](#adv-and-dis) <br>
+[2. Unique Pointer](#2-unique-pointer) <br>
 
-[2. Unique Pointer](#2-unique-pointer)
 
-
----
+<hr>
 
 > for now leaving the thoery for smart pointers, would jump to unique pointers instead.
 
