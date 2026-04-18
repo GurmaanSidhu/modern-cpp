@@ -1,4 +1,4 @@
-## What is a pointer?
+# What is a pointer?
 - A pointer is variable that stores **memory address** of another variable or object. Instead of holding a direct value (like a number or a character), a pointer **points to** the location in computer memory where that data is stored. 
 
 
@@ -7,7 +7,7 @@
   <img src="resources/image.png" width=600/>
 </p>
 
-### Contents
+## Contents
 [1. Smart Pointers](#smart-pointers)
 &emsp;[1.1 Defination](#defination) 
 &emsp;[1.2 Types](#types) 
@@ -19,7 +19,7 @@
 
 
 ---
-### 2. Unique Pointer
+## 2. Unique Pointer
 > “owns a piece of memory exclusively, and automatically deletes it when it’s no longer needed.”
 - Only one owner at a time
 - Cannot be copied, only moved
@@ -43,7 +43,7 @@
 | Safer Code | Requires Understanding Move Semantics |
 | Works with Move Semantics | [coudldn't find more, but click the link to view the syntax for single object &rarr;](#single-object) |
 
-#### Single Object
+### Single Object
 **unique_ptr** &rarr; Owns one **dynamically allocated object** exclusively and <u>*automatically deletes*</u> it when it goes out of scope., you can only transfer the ownership for it using move() method. 
 
 - **Syntax**
