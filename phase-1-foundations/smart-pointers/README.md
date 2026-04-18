@@ -45,12 +45,14 @@
 | Clear Ownership| Not for Shared Ownership |
 | Lightweight | Slightly More Complex Syntax |
 | Safer Code | Requires Understanding Move Semantics |
-| Works with Move Semantics | [coudldn't find more, but click the link to view the syntax for single object &rarr;](#single-object) |
+| Works with Move Semantics | [skip to next section &rarr;](#single-object) |
+
+--
 
 ### Single Object
 **unique_ptr** &rarr; Owns one **dynamically allocated object** exclusively and <u>*automatically deletes*</u> it when it goes out of scope., you can only transfer the ownership for it using move() method. 
 
-- **Syntax**
+#### Syntax
 ```
   std::unique_ptr<type> ptr_name; // Basic declaration
   std::unique_ptr<int> ptr = std::make_unique<int>(10); // creation
