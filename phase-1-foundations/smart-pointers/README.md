@@ -12,12 +12,13 @@
 
 &emsp;[1.1 Defination](#defination) 
 
-&emsp;[1.2 Types](#types) 
-
+&emsp;[1.2 Types](#types) <br>
 &emsp;[1.2 Advantages and Disadvantages](#adv-and-dis)
 
 [2. Unique Pointer](#2-unique-pointer)
 
+
+---
 
 > for now leaving the thoery for smart pointers, would jump to unique pointers instead.
 
@@ -38,6 +39,8 @@
 6. Ownership Transfer
 7. In Containers
 8. Polymorphism
+
+- **Advantages and Disadvantages**
 
 | Advantages | Disadvantages |
 | -----------|---------------|
