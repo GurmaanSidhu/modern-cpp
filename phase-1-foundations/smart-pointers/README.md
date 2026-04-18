@@ -9,9 +9,13 @@
 
 ## Contents
 [1. Smart Pointers](#smart-pointers)
+
 &emsp;[1.1 Defination](#defination) 
+
 &emsp;[1.2 Types](#types) 
+
 &emsp;[1.2 Advantages and Disadvantages](#adv-and-dis)
+
 [2. Unique Pointer](#2-unique-pointer)
 
 
