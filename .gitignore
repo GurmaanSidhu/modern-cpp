@@ -2,5 +2,8 @@ build/
 *.exe
 *.o
 *.out
+*.log
+*.tmp
+*.ipynb_checkpoints/
 .vscode/
 .DS_Store
