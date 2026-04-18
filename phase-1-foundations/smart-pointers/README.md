@@ -50,6 +50,8 @@
 ```
   std::unique_ptr<type> ptr_name; // Basic declaration
   std::unique_ptr<int> ptr = std::make_unique<int>(10); // creation
+  // or
+  std::unique_ptr<int> ptr(new int(10))
 ```
 
 > Accessing value
