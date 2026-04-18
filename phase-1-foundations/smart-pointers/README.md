@@ -55,9 +55,9 @@
 #### Syntax
 ```
   std::unique_ptr<type> ptr_name; // Basic declaration
-  std::unique_ptr<int> ptr = std::make_unique<int>(10); // creation
+  std::unique_ptr<int> ptr = std::make_unique<int>(10); // creation (recommended)
   // or
-  std::unique_ptr<int> ptr(new int(10))
+  std::unique_ptr<int> ptr(new int(10)) (usually not recommended in modern cpp, as it leads to exception safety issues. Cannot create multiple allocations in one line)
 ```
 
 > Accessing value
