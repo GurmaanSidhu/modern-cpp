@@ -16,7 +16,7 @@ Most C++ tutorials either stop at the basics or jump straight into library usage
 
 | Phase | Topics | Status |
 |-------|--------|--------|
-| **Phase 1 — Foundations** | Pointers, references, manual memory, OOP, const correctness | ✅ Complete |
+| **Phase 1 — Foundations** | Pointers, references, manual memory, OOP, const correctness | ⛷️ Skipped |
 | **Phase 2 — Core Modern C++** | Smart pointers, move semantics, lambdas, Rule of Five, std::optional | 🔄 In progress |
 | **Phase 3 — Advanced C++** | Templates, constexpr, C++17 features, C++20 concepts & ranges | 🔜 Upcoming |
 | **Phase 4 — Expert Patterns** | RAII, TMP, concurrency, design patterns, coroutines | 🔜 Upcoming |
@@ -67,3 +67,6 @@ Every line of code here was written by hand. Every note was written after genuin
 ---
 
 *If you're learning C++ and find this useful, feel free to use it as a reference. If you spot something wrong or have a better way to implement something — open an issue.*
+
+### Author
+- Gurmaanpreet Singh Sidhu
